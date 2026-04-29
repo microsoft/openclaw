@@ -1350,7 +1350,7 @@ importers:
         version: 2.1.1
       marked:
         specifier: ^18.0.0
-        version: 18.0.0
+        version: 18.0.2
     devDependencies:
       '@types/markdown-it':
         specifier: ^14.1.2
@@ -4041,12 +4041,12 @@ packages:
   '@telegraf/types@7.1.0':
     resolution: {integrity: sha512-kGevOIbpMcIlCDeorKGpwZmdH7kHbqlk/Yj6dEpJMKEQw5lk0KVQY0OLXaCswy8GqlIVLd5625OB+rAntP9xVw==}
 
-  '@thi.ng/bitstream@2.4.45':
-    resolution: {integrity: sha512-LKOEJmmEvgUy1LKn79Hpc+EBMekGs5UOTqH3gcftl99w7fpzUAWg4gFmav34f/zw0SbjbnzO8EDmGUyyZW7dcA==}
+  '@thi.ng/bitstream@2.4.47':
+    resolution: {integrity: sha512-hnIkPoBl95YeJWc3GyS1wLOyXTHhWfvrxGqBQp6JPly2WjYnr2+pJcaANjwWt7QUnbmUijHc4ELsDHXHI2UxxA==}
     engines: {node: '>=18'}
 
-  '@thi.ng/errors@2.6.7':
-    resolution: {integrity: sha512-jFvECE7RPtB8P3BPL+XYOgGZqRheVtq32DAy3LJwbqgFP2v/lSyTwzvA47KsDKn1VDOGPGBhR5cM8eR7mnNbdQ==}
+  '@thi.ng/errors@2.6.9':
+    resolution: {integrity: sha512-LkeQq6n2oioFR7OvlLmpgGHxTO1f9e/23bgFvmDrZCLBsq/nm2iIVZPnbbk+vlD8DUpnIyVAPN1lF+z2Uzqpog==}
     engines: {node: '>=18'}
 
   '@tinyhttp/content-disposition@2.2.4':
@@ -6120,8 +6120,8 @@ packages:
     engines: {node: '>= 18'}
     hasBin: true
 
-  marked@18.0.0:
-    resolution: {integrity: sha512-2e7Qiv/HJSXj8rDEpgTvGKsP8yYtI9xXHKDnrftrmnrJPaFNM7VRb2YCzWaX4BP1iCJ/XPduzDJZMFoqTCcIMA==}
+  marked@18.0.2:
+    resolution: {integrity: sha512-NsmlUYBS/Zg57rgDWMYdnre6OTj4e+qq/JS2ot3KrYLSoHLw+sDu0Nm1ZGpRgYAq6c+b1ekaY5NzVchMCQnzcg==}
     engines: {node: '>= 20'}
     hasBin: true
 
@@ -7568,10 +7568,12 @@ packages:
 
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@9.0.1:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   validate-npm-package-name@7.0.2:
@@ -11003,12 +11005,12 @@ snapshots:
 
   '@telegraf/types@7.1.0': {}
 
-  '@thi.ng/bitstream@2.4.45':
+  '@thi.ng/bitstream@2.4.47':
     dependencies:
-      '@thi.ng/errors': 2.6.7
+      '@thi.ng/errors': 2.6.9
     optional: true
 
-  '@thi.ng/errors@2.6.7':
+  '@thi.ng/errors@2.6.9':
     optional: true
 
   '@tinyhttp/content-disposition@2.2.4': {}
@@ -13330,7 +13332,7 @@ snapshots:
 
   marked@15.0.12: {}
 
-  marked@18.0.0: {}
+  marked@18.0.2: {}
 
   math-intrinsics@1.1.0: {}
 
@@ -14148,7 +14150,7 @@ snapshots:
 
   qoa-format@1.0.1:
     dependencies:
-      '@thi.ng/bitstream': 2.4.45
+      '@thi.ng/bitstream': 2.4.47
     optional: true
 
   qrcode-terminal@0.12.0: {}
